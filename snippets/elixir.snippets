@@ -249,3 +249,8 @@ snippet wl word list
 	~w(${0})
 snippet al atom list
 	~w(${0})a
+	
+snippet han handle_event
+	def handle_event("${0}", params, socket) do
+	  {:noreply, socket}
+	end
